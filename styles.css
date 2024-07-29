@@ -1,0 +1,42 @@
+body {
+  position: absolute;
+  margin: 0;
+}
+
+.traffic-image {
+  position: absolute;
+  width: 99vw;
+  height: 100vh;
+}
+
+.traffic-light {
+  position: absolute;
+  top: 280px;
+  left: 653px;
+  width: 10px;
+  height: 70px;
+  background-color: black;
+  border-radius: 55px;
+  padding: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.red-light.active {
+  background-color: red;
+}
+
+.yellow-light.active {
+  background-color: yellow;
+}
+
+.green-light.active {
+  background-color: green;
+}
